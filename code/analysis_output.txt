@@ -1,0 +1,113 @@
+Files in RESULTS_DIR: ['fixed_threshold_14_results.json', 'basic_results.json', 'fixed_threshold_13_results.json', 'fixed_threshold_12_results.json', 'fixed_threshold_15_results.json', 'fixed_threshold_18_results.json', 'fixed_threshold_19_results.json', 'martingale_results.json', 'card_counter_results.json', 'mimic_dealer_results.json', 'dealer_weakness_results.json', 'fixed_threshold_17_results.json', 'fixed_threshold_20_results.json', 'fixed_threshold_16_results.json']
+Basic:
+  Mean Edge: -1.02%
+  95% CI: [-1.24%, -0.80%]
+  p-value (edge ≠ 0): 7.371e-20
+  Std Dev: 112.20%
+  N: 1,000,000
+
+Card Counter:
+  Mean Edge: 0.62%
+  95% CI: [-1.08%, -0.64%]
+  p-value (edge ≠ 0): 2.287e-14
+  Std Dev: 112.15%
+  N: 1,000,000
+
+Dealer Weakness:
+  Mean Edge: -3.61%
+  95% CI: [-3.80%, -3.42%]
+  p-value (edge ≠ 0): 2.684e-294
+  Std Dev: 98.47%
+  N: 1,000,000
+
+Mimic Dealer:
+  Mean Edge: -6.20%
+  95% CI: [-6.39%, -6.01%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 97.77%
+  N: 1,000,000
+
+Martingale:
+  Mean Edge: 1.15%
+  95% CI: [-1.04%, -0.60%]
+  p-value (edge ≠ 0): 2.878e-13
+  Std Dev: 112.15%
+  N: 1,000,000
+
+Fixed Threshold 12:
+  Mean Edge: -7.88%
+  95% CI: [-8.08%, -7.69%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 99.36%
+  N: 1,000,000
+
+Fixed Threshold 13:
+  Mean Edge: -6.74%
+  95% CI: [-6.94%, -6.55%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 99.16%
+  N: 1,000,000
+
+Fixed Threshold 14:
+  Mean Edge: -5.80%
+  95% CI: [-5.99%, -5.60%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 98.90%
+  N: 1,000,000
+
+Fixed Threshold 15:
+  Mean Edge: -5.48%
+  95% CI: [-5.67%, -5.29%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 98.57%
+  N: 1,000,000
+
+Fixed Threshold 16:
+  Mean Edge: -5.41%
+  95% CI: [-5.60%, -5.21%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 98.22%
+  N: 1,000,000
+
+Fixed Threshold 17:
+  Mean Edge: -6.27%
+  95% CI: [-6.47%, -6.08%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 97.75%
+  N: 1,000,000
+
+Fixed Threshold 18:
+  Mean Edge: -9.64%
+  95% CI: [-9.83%, -9.44%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 98.13%
+  N: 1,000,000
+
+Fixed Threshold 19:
+  Mean Edge: -18.20%
+  95% CI: [-18.40%, -18.01%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 97.76%
+  N: 1,000,000
+
+Fixed Threshold 20:
+  Mean Edge: -33.48%
+  95% CI: [-33.66%, -33.29%]
+  p-value (edge ≠ 0): 0
+  Std Dev: 94.56%
+  N: 1,000,000
+
+Threshold | Player Edge (%) | 95% CI
+       12 |          -7.88 | [-8.08, -7.69]
+       13 |          -6.74 | [-6.94, -6.55]
+       14 |          -5.80 | [-5.99, -5.60]
+       15 |          -5.48 | [-5.67, -5.29]
+       16 |          -5.41 | [-5.60, -5.21]
+       17 |          -6.27 | [-6.47, -6.08]
+       18 |          -9.64 | [-9.83, -9.44]
+       19 |         -18.20 | [-18.40, -18.01]
+       20 |         -33.48 | [-33.66, -33.29]
+
+
+Martingale: Probability of Ruin (bankroll $10,000): Yes
+Martingale: Maximum Drawdown: $3,252,145.00
