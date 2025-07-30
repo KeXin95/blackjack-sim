@@ -59,7 +59,7 @@ def analyze_strategy(results, name):
     profits = np.array([r['profit'] for r in results])
     bets = np.array([r.get('bet',) for r in results])
     
-    # --- Per-Hand Statistical Analysis (from your original code) ---
+    # --- Per-Hand Statistical Analysis ---
     # Filter out any hands with a zero bet to prevent errors
     valid_bets_mask = bets > 0
     profit_per_dollar = profits[valid_bets_mask] / bets[valid_bets_mask]
@@ -87,7 +87,7 @@ def analyze_strategy(results, name):
     return {
         # Aggregate stats
         "name": name,
-        "overall_player_edge": overall_player_edge, # <-- Key metric for your report
+        "overall_player_edge": overall_player_edge,
         "total_profit": total_profit,
         "total_wagered": total_wagered,
         

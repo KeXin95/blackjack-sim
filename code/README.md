@@ -186,7 +186,7 @@ The analysis script generates several insightful visualizations:
 
 ## 🤝 Contributing
 
-This project was developed for ISYE 6739 Statistical Methods course.
+This project was developed for ISYE 6739 Statistical Methods course. For questions or improvements, please refer to the course materials or contact the development team.
 
 ---
 
